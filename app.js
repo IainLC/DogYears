@@ -27,3 +27,16 @@ return console.log(`My name is ${myName}. I am ${myAge} years old in human years
 
 dogYears(1);
 yourName = input("what is your name?");
+
+// Conversion calc human to dog.
+function dogYears (myAge, name){
+let earlyYears = 2
+earlyYears *= 10.5;
+let laterYears = myAge - 2;
+laterYears *= 4
+let myAgeInDogYears = earlyYears + laterYears;
+console.log(`My nam is ${name} I am ${myAgeInDogYears} in Dog years`)
+};
+
+
+dogYears(32, "Iain".toLowerCase());
